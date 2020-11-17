@@ -50,34 +50,39 @@
         app:layout_constraintVertical_bias="0.391">
 
         <RadioButton
-            android:id="@+id/radioButton6"
+            android:id="@+id/people5"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="5人" />
+            android:layout_height="60dp"
+            android:text="5人"
+            android:textSize="20dp" />
 
         <RadioButton
-            android:id="@+id/radioButton7"
+            android:id="@+id/people6"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="6人" />
+            android:layout_height="60dp"
+            android:text="6人"
+            android:textSize="20dp" />
 
         <RadioButton
-            android:id="@+id/radioButton8"
+            android:id="@+id/people7"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="7人" />
+            android:layout_height="60dp"
+            android:text="7人"
+            android:textSize="20dp" />
 
         <RadioButton
-            android:id="@+id/radioButton9"
+            android:id="@+id/people8"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="8人" />
+            android:layout_height="60dp"
+            android:text="8人"
+            android:textSize="20dp" />
 
         <RadioButton
-            android:id="@+id/radioButton10"
+            android:id="@+id/people9"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="9人" />
+            android:layout_height="60dp"
+            android:text="9人"
+            android:textSize="20dp" />
     </RadioGroup>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

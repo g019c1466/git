@@ -6,4 +6,44 @@
     android:layout_height="match_parent"
     tools:context=".rules">
 
+    <Button
+        android:id="@+id/back"
+        android:layout_width="145dp"
+        android:layout_height="84dp"
+        android:text="←戻る"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.018"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="408dp"
+        android:layout_height="633dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.857">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" />
+    </ScrollView>
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="403dp"
+        android:layout_height="622dp"
+        android:text="ブラック企業ゲーム ルール説明 ゲームは 「会話フェーズ」では全員で話し合い、誰を退社させるかを決めます。 「能力フェーズ」ではそれぞれが持った特殊能力を使用することができます。 これをゲーム終了まで繰り返します。  勝利条件 社員チームの社員、監査人、カウンセラーはスパイ社員を全員退社させることができれば勝利です。  スパイ社員チームのスパイ社員、ブラック社員は スパイ社員の数＝生き残っている社員の数 にすることで勝利となります。  社員説明 社員チーム  社員 特別な能力を持たない一般的な社員です。 自身の身を潔白し、敵を追い詰めましょう。  監査人 監査人となった社員は一人社員を選び、監査人の役職を活かし資料を探り正体を調べることができます。 敵の社員を暴きましょう。  カウンセラー カウンセラーとなった社員は一人社員を選び、メンタルケアの技術を活かし退社を防ぐことができます。 味方を守り味方の有利を広げましょう。  スパイチーム  スパイ社員 スパイ社員となった社員はゲーム開始時にスパイ社員がわかります。（ゲームの中に2人スパイ社員が居る場合。） 更に一人社員を選び、その狡猾な手腕で他人をスパイ社員に仕立て上げ社員を退社させられることができます。2人スパイ社員が居ても退社させられるのは一人です。 疑われることを避けつつ、敵の社員を減らしましょう。  ブラック社員 ブラック社員となった社員は社員と同じく特別な能力を持たない一般的な社員です。しかし、ブラックなため他の社員を蹴落とすことを狙います。 何を発言するもよし、場を乱してスパイ社員を勝ちに導きまし "
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="@+id/scrollView2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>
