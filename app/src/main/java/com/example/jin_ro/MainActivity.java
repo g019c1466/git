@@ -15,12 +15,17 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         //画面転移
-        findViewById(R.id.new_game).setOnClickListener(this::onClick);
+        findViewById(R.id.new_game).setOnClickListener(this::onClick1);
+        findViewById(R.id.rules).setOnClickListener(this::onClick2);
     }
 
     //画面転移onClick
-    public void onClick(View view){
-        Intent intent = new Intent(this,number_of_people.class);
-        startActivity(intent);
+    public void onClick1(View view){
+        Intent intent1 = new Intent(this, number_of_people.class);
+        startActivity(intent1);
+    }
+    public void onClick2(View view){
+        Intent intent2 = new Intent(this,rules.class);
+        startActivity(intent2);
     }
 }

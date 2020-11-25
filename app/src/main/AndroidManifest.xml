@@ -12,7 +12,7 @@
         <activity android:name=".rules"></activity>
         <activity android:name=".result" />
         <activity android:name=".game" />
-        <activity android:name=".add_name" />
+        <activity android:name=".add_name6" />
         <activity android:name=".number_of_people" />
         <activity android:name=".MainActivity">
             <intent-filter>
@@ -21,6 +21,9 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".add_name7" />
+        <activity android:name=".add_name9" />
+        <activity android:name=".add_name8" />
     </application>
 
 </manifest>
