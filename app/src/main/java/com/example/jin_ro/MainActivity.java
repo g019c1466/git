@@ -29,6 +29,3 @@ public class MainActivity extends AppCompatActivity {
         startActivity(intent2);
     }
 }
-
-//test2!
-//coomit?
